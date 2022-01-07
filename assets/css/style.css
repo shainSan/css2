@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+h1{
+    font-style: inherit;
+}
+p{
+  /*  font-style: oblique; 
+  sansa-serif */
+  font-family: 'Shizuru', cursive;
+  font-weight: 700;
+}

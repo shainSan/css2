@@ -1,0 +1,32 @@
+.body{
+    margin: 0;
+padding: 0;}
+.menu{
+    background-color: #e48b8b;
+    height: 50px; /* ancho de la linea*/
+    
+}
+.menu ul{
+    width: 600px;
+    margin: 0 auto;
+}
+.menu .elemento{
+    display: inline;
+    margin: 0 20px;
+   /* margin: superior derecha abajo izquierda; */
+}
+/*.menu .elemento:hover{
+    background-color: yellow;
+} */
+.elemento a{
+font-size: 25px; /*Tamaño de la fuente */
+color: white;
+text-decoration: none; /*Quita el subrayado*/
+line-height: 50px; /*Centra el texto */
+font-family: 'The Nautigal', cursive;
+transition: 0.3s;
+}
+.elemento a:hover{
+    color: grey;
+    font-size: 30px;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: #D3D3D3;
+}
+.titulo-principal{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.contenido-principal{
+    /*medidas alternativa
+    se basa en % de la pagina se va adaptando a la forma*/
+    width: 90%;
+    margin: 0 auto;
+}
+.contenido-principal .encabezado{
+    background-color: gray;
+    color: white;
+    padding: 10px 5px;
+}
+.contenido-principal .article{
+    width: 80%;
+    margin: 0 auto;
+}
+.contenido-principal .contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+.contenido-principal .imagen1{
+  /*Flota la imagen*/  float: left;
+}
+.contenido-principal .texto1 {
+    margin-left: 150px;
+}
+.contenido-principal .texto1 p{
+    text-indent: 20px;
+    text-align: justify;
+}
+.contenido-principal .imagen2{
+    /*Flota la imagen*/  float: left;
+  }
+  .contenido-principal .texto2 {
+      margin-left: 150px;
+  }
+  .contenido-principal .texto2 p{
+      text-indent: 20px;
+      text-align: justify;
+  }
